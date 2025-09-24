@@ -1,4 +1,4 @@
-import React from "react";
+
 import { NavLink, useNavigate } from "react-router-dom";
 import style from "./Header.module.css";
 import Avater from "../assets/avatar.png";

@@ -1,4 +1,4 @@
-import React from "react";
+
 import style from "./login.module.css";
 import Personlogin from "../images/personlogin.png";
 export default function Login() {
