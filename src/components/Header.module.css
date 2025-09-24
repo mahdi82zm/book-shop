@@ -1,0 +1,110 @@
+body {
+    margin: 0 auto 20px;
+
+  }
+  
+  .container{
+   margin: 0 20px;
+   z-index: 10;
+  }
+  
+  .top_menu{
+   margin: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+  }
+  .top_menu input{
+    width: 50%;
+    border: none;
+    padding: 8px 35px 8px 10px;
+    border-radius: 20px;
+    background-size: 18px;
+    background-color: #f7f5f5;
+  background-image: url(../../assets/Vector.svg);
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  
+  
+  
+  }
+  
+  .top_menu input:focus{
+    outline: none;
+    border: 1px solid #4A90E2;
+    box-shadow: 0 0 8px rgba(74, 144, 226, 0.6);
+  }
+  
+  nav {
+    padding: 10px;
+    border-top: 2px solid #ddd;
+    padding-top: 10px;
+    margin: 0 40px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 20px;
+    direction: rtl;
+  }
+  
+  nav a {
+    
+    position: relative;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+
+  nav a:last-child::after {
+    content: "|";
+    position: absolute;
+    right: -12px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 8px;
+    color: #aaa;
+    
+  }
+  
+  /* nav a:last-child{
+    border-right: 1px solid ;
+  } */
+  
+  .buttonMenu{
+   display: flex;
+  }
+  .buttonMenu img{
+   
+    margin: 2px 19px;
+  }
+  
+  .buttonMenu img:not(:last-child){
+     border-right: 1px solid #ddd;
+     padding-right:10px ;
+  }
+  .avatar{
+    width: 5%;
+  }
+
+  .nav_bar {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.nav_bar a {
+  color: #374151;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.nav_bar a:hover {
+  color: #2563eb;
+}
+
+.nav_bar a.active {
+  color: #2563eb;
+  font-weight: bold;
+  text-decoration: underline;
+}

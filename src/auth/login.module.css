@@ -1,0 +1,10 @@
+/* Login.module.css */
+.loginContainer {
+  background-color: #8FBDE8;
+  height: 100vh; /* تا کل صفحه پر بشه */
+}
+    
+.login {
+  
+  background-color: white;
+}
