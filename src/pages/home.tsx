@@ -2,12 +2,12 @@ import "./home.css";
 
 import Hero from "../assets/Mask-Group.png";
 
-import Girl from "../images/Image.png";
+import Girl from "/images/Image.png";
 import CartGrid from "../components/CartGrid";
 import PruductCart from "../components/PruductCart";
-import Happy from "../images/Happy.png";
+import Happy from "/images/Happy.png";
 import StarRating from "../components/StarRating";
-import Comming from "../images/comingSoon.png";
+import Comming from "/images/comingSoon.png";
 export default function Home() {
   return (
     <>

@@ -3,7 +3,7 @@ import Login from "./forms/login";
 import Signup from "./forms/signup"; 
 import ForgotPassword from "./forms/forgetpassword";
 import style from "./login.module.css";
-import Personlogin from "../images/personlogin.png";
+import Personlogin from "/images/personlogin.png";
 
 export default function Auth() {
   const [formType, setFormType] = useState<"login" | "signup" | "forgot">("login");

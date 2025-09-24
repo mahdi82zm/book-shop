@@ -1,8 +1,8 @@
-import Book from "../images/book.png";
-import Education from "../images/Education.png";
-import Ecommerc from "../images/Eccommerc.png";
-import Enginiering from "../images/Enginiering.png";
-import Trapiutic from "../images/meditation .png";
+import Book from "/images/book.png";
+import Education from "/images/Education.png";
+import Ecommerc from "/images/Eccommerc.png";
+import Enginiering from "/images/Enginiering.png";
+import Trapiutic from "/images/meditation .png";
 import { Link } from "react-router-dom";
 
 const cart = [

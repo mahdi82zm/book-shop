@@ -1,8 +1,8 @@
 
-import product1 from "../images/prioductcart1.png";
-import product2 from "../images/productcart2.png";
-import product3 from "../images/productcarrt3.png";
-import product4 from "../images/productcart4.png";
+import product1 from "/images/prioductcart1.png";
+import product2 from "/images/productcart2.png";
+import product3 from "/images/productcarrt3.png";
+import product4 from "/images/productcart4.png";
 import { SiderDota } from "./SiderDota";
 import StarRating from "./StarRating";
 const product = [
