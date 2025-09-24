@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Vazir', 'ui-sans-serif', 'system-ui'], // جایگزین فونت پیش‌فرض
+        sans: ['Vazirmatn', 'ui-sans-serif', 'system-ui'], // جایگزین فونت پیش‌فرض
       },
     },
   },
