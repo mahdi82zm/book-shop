@@ -2,7 +2,7 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import Header from "./components/Header";
 import Home from "./pages/home";
 import About from "./pages/about";
-import Books from "./Books/books";
+import Books from "./Books/Books";
 import Contact from "./pages/Contact";
 import Articles from "./pages/Articles";
 import Search from "./pages/Search";
