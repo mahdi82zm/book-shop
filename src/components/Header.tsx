@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink, useNavigate } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import style from "./Header.module.css";
 import Avater from "../assets/avatar.png";
 import Person from "../assets/person.svg";
@@ -11,7 +11,9 @@ export default function Header() {
   const navigate = useNavigate();
 
   const handleSearch = (e: React.FormEvent<HTMLFormElement>) => {
+    console.log("e:", e.target);
     e.preventDefault();
+
     navigate(`/search?q=${searchQuery}`);
   };
 
@@ -19,16 +21,21 @@ export default function Header() {
     <header className={style.container}>
       <div className={style.top_menu}>
         <img className={style.avatar} src={Avater} alt="" />
-        <form onSubmit={handleSearch}>
+        <form className="w-2xl" onSubmit={handleSearch}>
           <input
+            name="search"
             type="search"
             placeholder="جستجوی کتاب ..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
+            className="w-full h-auto"
           />
         </form>
         <div className={style.buttonMenu}>
-          <img src={Person} alt="پروفایل" role="button" />
+          <Link to="/auth" className="bg-emerald-600">
+            <img src={Person} alt="پروفایل" role="button" />
+          </Link>
+
           <img src={Cart} alt="سبد خرید" role="button" />
           <img src={Like} alt="علاقه‌مندی‌ها" role="button" />
         </div>
